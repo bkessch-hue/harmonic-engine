@@ -1,0 +1,31 @@
+# Build directories
+build/
+build-release/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.xcworkspace
+*.xcodeproj
+DerivedData/
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.dylib
+*.so
+*.dll
+*.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JUCE
+libs/JUCE/extras/
+
+# Binary data (generated)
+source/BinaryData/
